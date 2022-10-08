@@ -4,40 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Landing Page</title>
 </head>
 <body>
     <div class="header">
-        Header Logo
+        <div class="logo">Header Logo</div>
         <a>header link one</a>
         <a>header link two</a>
         <a>header link three</a>
     </div>
     <div class="hero">
+        <div class="hero-words">
         <h1>This website is awesome</h1>
         <p>This website has some subtext that goes here 
             under the main title. It's a smaller font and the color is 
             lower contrast
         </p>
         <button>Sign up</button>
+        </div>
+        <div class="hero-img">
+            <img src="images/photo5.jpg" alt="">
+        </div>
     </div>
     <div class="section-1">
         <h2>Some random information.</h2>
-        <div class="picture-explanation">
-            <img src="images/photo1.jpg" alt="">
-            <p>this is some subtext under an illustration or image</p>
-        </div>
-        <div class="picture-explanation">
-            <img src="images/photo2.jpg" alt="">
-            <p>this is some subtext under an illustration or image</p>
-        </div>
-        <div class="picture-explanation">
-            <img src="images/photo3.jpg" alt="">
-            <p>this is some subtext under an illustration or image</p>
-        </div>
-        <div class="picture-explanation">
-            <img src="images/photo4.jpg" alt="">
-            <p>this is some subtext under an illustration or image</p>
+        <div class="pictures-container">
+            <div class="picture-explanation">
+                <img src="images/photo1.jpg" alt="">
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="picture-explanation">
+                <img src="images/photo2.jpg" alt="">
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="picture-explanation">
+                <img src="images/photo3.jpg" alt="">
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="picture-explanation">
+                <img src="images/photo4.jpg" alt="">
+                <p>this is some subtext under an illustration or image</p>
+            </div>
         </div>
     </div>
     <div class="section-2">
@@ -46,14 +54,20 @@
             Maybe it's just filling up space, or maybe people will actually 
             read it. Who knows? All I know is that is looks nice.
         </blockquote>
-        <p>-Thor, God of Thunder</p>
+        <p class="author-qoute">-Thor, God of Thunder</p>
     </div>
     <div class="section-3">
         <div class="call-to-action">
-        <h3>Call to action! It's time!</h3>
-        <p>Sign up for our product by clicking that button right over there!</p>
-        <button>Sign Up</button>
+            <div>
+                <h3>Call to action! It's time!</h3>
+                <p>Sign up for our product by clicking that button right over there!</p>
+
+            </div>
+            <button>Sign Up</button>
         </div>
+    </div>
+    <div class="footer">
+        <p>Copyright © The Odin Project 2021</p>
     </div>
 </body>
 </html>
